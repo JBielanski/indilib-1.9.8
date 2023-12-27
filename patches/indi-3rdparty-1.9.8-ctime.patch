@@ -1,0 +1,11 @@
+diff -ruN indi-3rdparty-1.9.8/indi-duino/libfirmata/src/firmata.h b/indi-duino/libfirmata/src/firmata.h
+--- indi-3rdparty-1.9.8/indi-duino/libfirmata/src/firmata.h	2022-09-29 08:09:19.000000000 +0200
++++ b/indi-duino/libfirmata/src/firmata.h	2023-12-27 10:27:11.466826318 +0100
+@@ -12,6 +12,7 @@
+ */
+ 
+ #include <vector>
++#include <ctime>
+ #include <stdint.h>
+ #include <arduino.h>
+ 
